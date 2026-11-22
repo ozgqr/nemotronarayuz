@@ -56,7 +56,7 @@ except ImportError: HAS_DDG = False
 st.set_page_config(page_title="Nvidia Nemotron 3 Ultra", page_icon="🤖", layout="wide", initial_sidebar_state="expanded")
 
 BACKGROUND_IMAGE_PATH = r"C:\Users\hindi\OneDrive\Masaüstü\ozgurfoto\canon\canoneos7d\09-2026\IMG_8170.JPG"
-DEFAULT_API_KEY = "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"
+DEFAULT_API_KEY = "Enter API Key"
 
 AVAILABLE_MODELS = ["nvidia/nemotron-3-ultra-550b-a55b", "nvidia/nemotron-4-340b-instruct", "nvidia/nemotron-3.5-bolt-e4b"]
 CHATS_DIR = Path("chats"); INDEX_FILE = CHATS_DIR / "index.json"
